@@ -1,0 +1,282 @@
+style.css */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    font-family: montserrat;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 12, 59);
+}
+
+#calculator {
+    display: flex;
+	width: 350px;
+    height: 400px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+	background-color: lightgray;
+	flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+    border: 13px solid rgb(126, 205, 231);
+    
+}
+
+/* First row - Display */
+#row {
+    display: flex;
+    height: 23%;
+    flex: 0 0 100%;
+    
+}
+
+#output {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 100%;
+}
+
+#display {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 0 98%;
+    font-size: 22px;
+    font-weight: bold;
+    color: whitesmoke;
+    justify-content: flex-end;
+    text-align: right;
+    background-color: rgb(131, 127, 127);
+}
+
+/* Second Row */
+#rowOne {
+    display: flex;
+    height: 15%;
+    flex: 0 0 100%;
+    
+}
+
+#clear{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 0 75%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(209, 93, 93);
+}
+
+#divide {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 0 25%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color: lightsteelblue;
+}
+
+/* Third Row */
+#rowTwo{
+    display: flex;
+    height: 15%;
+    flex: 0 0 100%;
+}
+
+#seven{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 25%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color:lightgray;
+}
+
+#eight{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 25%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color:lightgray;
+}
+
+#nine{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 25%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color:lightgray;
+}
+
+#multi{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 25%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color: lightsteelblue;
+}
+
+/* Fourth Row  */
+#rowThree{
+    display: flex;
+    height: 15%;
+    flex: 0 0 100%;
+    
+}
+
+#four{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 25%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color:lightgray;
+}
+
+#five{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 25%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color:lightgray;
+}
+
+#six{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 25%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color:lightgray;
+}
+
+#sub{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 25%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color: lightsteelblue;
+}
+
+/* Fifth Row */
+#rowFour{
+    display: flex;
+    height: 15%;
+    flex: 0 0 100%;
+}
+
+#one{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 25%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color:lightgray;
+}
+
+#two{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 25%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color:lightgray;
+}
+
+#three{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 25%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color:lightgray;
+}
+
+#add{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 25%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color: lightsteelblue;
+}
+
+/* Sixth Row */
+#rowFive {
+    display: flex;
+    height: 15%;
+    flex: 0 0 100%;
+}
+
+#zero{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 0 50%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color:lightgray;
+}
+
+#dot {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 0 25%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color: lightsteelblue;
+}
+
+#equal {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 0 25%;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    background-color: lightsteelblue;
+}
